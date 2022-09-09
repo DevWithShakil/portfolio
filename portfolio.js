@@ -1,35 +1,35 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Md. Shakil Khan",
+	title: "Hi all, I'm Shakil Khan",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"A passionate Front end Web Developer having an experience of building Website with JavaScript/ ReactJS/ NodeJS/ and some other cool libraries and frameworks.",
 	resumeLink:
-		"https://drive.google.com/file/d/1WD21Y1fzGmdKY6R8lrK01X4YH9RBUxOa/view?usp=sharing",
+		"https://drive.google.com/file/d/147oqxr0rynIKgVVv5E0VGHPPLRmIGWUX/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "DevWithShakil",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	facebook: "https://www.facebook.com/m.khanshakil07/",
+	instagram: "https://www.instagram.com/md__shakil__khan/",
+	twitter: "https://twitter.com/ShakilKhanSumo2",
+	github: "https://github.com/DevWithShakil",
+	linkedin: "https://www.linkedin.com/in/md-shakil-khan76/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
-			title: "Full Stack Development",
+			title: "MERN Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
@@ -37,7 +37,7 @@ export const skillsSection = {
 				),
 				emoji("⚡ Building responsive static websites using Next.js"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Integration of third party services such as Firebase/ AWS"
 				),
 			],
 			softwareSkills: [
@@ -61,13 +61,26 @@ export const skillsSection = {
 					skillName: "Nextjs",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
+				// {
+				// 	skillName: "Python",
+				// 	fontAwesomeClassname: "logos:python",
+				// },
+				// {
+				// 	skillName: "Django",
+				// 	fontAwesomeClassname: "vscode-icons:file-type-django",
+				// },
+
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "Bootstrap",
+					fontAwesomeClassname: "logos:bootstrap",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					skillName: "MongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-db",
+				},
+				{
+					skillName: "TypeScript",
+					fontAwesomeClassname: "logos:typescript",
 				},
 
 				{
@@ -102,26 +115,26 @@ export const skillsSection = {
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
 				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
+				// {
+				// 	skillName: "Azure",
+				// 	fontAwesomeClassname: "logos:microsoft-azure",
+				// },
 				{
 					skillName: "Heroku",
 					fontAwesomeClassname: "logos:heroku-icon",
 				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
+				// {
+				// 	skillName: "PostgreSQL",
+				// 	fontAwesomeClassname: "logos:postgresql",
+				// },
 				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
+				// {
+				// 	skillName: "Docker",
+				// 	fontAwesomeClassname: "logos:docker-icon",
+				// },
 				{
 					skillName: "Github Actions",
 					fontAwesomeClassname: "logos:github-actions",
@@ -130,59 +143,59 @@ export const skillsSection = {
 					skillName: "Cloudinary",
 					fontAwesomeClassname: "logos:cloudinary",
 				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+				// {
+				// 	skillName: "Nginx",
+				// 	fontAwesomeClassname: "logos:nginx",
+				// },
+				// {
+				// 	skillName: "Sentry",
+				// 	fontAwesomeClassname: "logos:sentry-icon",
+				// },
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
+		// {
+		// 	title: "Blockchain",
+		// 	lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+		// 	skills: [
+		// 		emoji(
+		// 			"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+		// 		),
+		// 	],
+		// 	softwareSkills: [
+		// 		{
+		// 			skillName: "Ethereum",
+		// 			fontAwesomeClassname: "logos:ethereum",
+		// 		},
+		// 		{
+		// 			skillName: "Solidity",
+		// 			fontAwesomeClassname: "logos:solidity",
+		// 		},
+		// 		{
+		// 			skillName: "Web3js",
+		// 			fontAwesomeClassname: "logos:web3js",
+		// 		},
+		// 		{
+		// 			skillName: "Metamask",
+		// 			fontAwesomeClassname: "logos:metamask-icon",
+		// 		},
+		// 		{
+		// 			skillName: "Ganache",
+		// 			fontAwesomeClassname: "logos:ganache-icon",
+		// 		},
+		// 	],
+		// },
 	],
 };
 
@@ -193,25 +206,23 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "60",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "40",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Institute of Science and Technology",
+		subHeader: "BSc in Computer Science and Engineering ",
+		duration: "November 2019 -  November 2024",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 ];
 
@@ -289,19 +300,18 @@ export const feedbacks = [
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Md. Shakil Khan",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+		"A passionate MERN Stack Web Developer.",
+	author: "Md. Shakil Khan",
+	image: "https://i.ibb.co/p2zPytf/20220710181749-IMG-1122.jpg",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Shakil",
+		"Md. Shakil Khan",
+		"DevWithShakil",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Shakil Portfolio ",
+		"Shakil Khan Portfolio",
 	],
 }
