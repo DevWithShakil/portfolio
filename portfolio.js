@@ -228,73 +228,76 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: " Junior Frontend Developer",
+		company: "Marketing Doorway",
+		companylogo: "https://i.ibb.co/2jbdPHK/Resized-New-Logo.png",
+		date: "March 2019 – June 2020",
+		desc: "I worked as Junior frontend web developer to design web based admin dashboards for mulitiple apps using Html, Css, Bootstrap, Javascript, React.Js, Redux, Nextjs, Typescript, Firebase Authentication, Vercel Deployment and some other libraries.",
 	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
+	// {
+	// 	role: "API Engineer",
+	// 	company: "Duseca Software",
+	// 	companylogo: "/img/icons/common/dusecaSoftware.jpg",
+	// 	date: "Jan 2022 – Mar 2022",
+	// 	desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+	// 	// descBullets: [
+	// 	// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+	// 	// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	// ],
+	// },
+	// {
+	// 	role: "Full Stack Developer",
+	// 	company: "Bleed-AI",
+	// 	companylogo: "/img/icons/common/bleedAI.jpg",
+	// 	date: "Sept 2021 - Oct 2021",
+	// 	desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+	// },
+	// {
+	// 	role: "Backend Developer",
+	// 	company: "Wapidu",
+	// 	companylogo: "/img/icons/common/wapidu.jpg",
+	// 	date: "Sept 2021",
+	// 	desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+	// },
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Portfolio",
+		desc: "MERN Stack Developer Portfolio built with react.js and next.js bootstrap.",
+		github: "https://github.com/DevWithShakil/developer-portfolio-site.git",
+		link: "https://developer-portfolio-site.vercel.app/",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Zoomla",
+		desc: "Zoomla is an video conferencing web application. It's my team work, I built the part of Video Conference Room. In this web application technology we used ReactJS, Video Sdk, CometChat, Soket.io, Matrerial Taiwind etc.",
+		github: "https://github.com/DevWithShakil",
+		link: "https://zoomla.vercel.app/"
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "To-Do",
+		desc: "One of the most important reasons you should use a to do list is that it will help you stay organised. When you write all your tasks in a list, they seem more manageable. When you've got a clear outline of the tasks you've got to do and those you've completed, it helps you stay focused. This is To-Do react web application. Built with Html, Css, Bootstrap, Taiwind, Javascript, ReactJs. ",
+		github: "https://github.com/DevWithShakil/todo.git",
+		link: "https://todo-e949a.web.app/"
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
+		name: "Wheels BD (Ecommerce)",
+		desc: "Wheels BD is an Ecommerce Website. Where technology used Html, Css, Bootstrap, Javascript, ReactJs, Firebase Authentication. This a simple website, I built it when learning reactJS.",
 		github: "https://github.com/1hanzla100/Django-ecommerce",
+		link: "https://wheels-bd.web.app/"
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "John Smith",
+		name: "Zubayer Hossain",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"Even though the outcome wasn’t what we wanted, I want to congratulate you on all of the hard work you put in over the past few weeks. If we apply that same effort to our next project, I believe we can win.",
 	},
 	{
-		name: "John Smith",
+		name: "Mr. Harish",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"You put so much hard work into getting this client, and it really paid off. Thanks to your focus and determination in going the extra mile and managing all of the complexities of this project, we met our goals.",
 	},
 ];
 
